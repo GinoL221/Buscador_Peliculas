@@ -1,0 +1,31 @@
+/* Variables CSS para colores y efectos comunes */
+:root {
+  --primary-purple: #9354ce;
+  --secondary-purple: #7c3aed;
+  --hover-purple: #a46be0;
+  --accent-pink: #e879f9;
+
+  --dark-bg: rgba(10, 8, 12, 0.95);
+  --glass-bg: rgba(255, 255, 255, 0.12);
+  --border-color: rgba(147, 84, 206, 0.3);
+
+  --text-color: #f5f5f5;
+  --gradient-purple: linear-gradient(135deg, #9354ce, #7c3aed);
+
+  --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --shadow: 0 4px 15px rgba(147, 84, 206, 0.3);
+}
+
+body {
+  font-family: "Oswald", serif;
+  font-optical-sizing: auto;
+  margin: 0;
+  padding: 0;
+  background: var(--gradient-purple),
+    radial-gradient(circle at top left, #0a0608, #1a0f23 60%, #0f0a15 100%);
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+  min-height: 100vh;
+}
