@@ -3,12 +3,17 @@
 ¡Bienvenido a **CineRadar**! Un buscador de películas moderno, rápido y responsivo para descubrir tendencias, estrenos, populares y buscar por nombre, género, año, calificación y más. Incluye trailers, elenco, géneros, enlaces directos a IMDB y gestión de favoritos persistente.
 
 ## 🚀 Tecnologías utilizadas
+
 - **React 18**
 - **Vite**
 - **CSS moderno y responsive**
 - **The Movie Database (TMDB) API**
 - Accesibilidad (roles, aria-labels, navegación teclado)
 - SEO básico (título dinámico, meta tags)
+
+## Demo online
+
+https://peliradar.netlify.app/
 
 ## 📸 Screenshots
 
@@ -34,6 +39,7 @@
 4. Abre [http://localhost:5173](http://localhost:5173) en tu navegador.
 
 ## ✨ Funcionalidades principales
+
 - Búsqueda por nombre, género, año, calificación y orden.
 - Filtros avanzados y combinables.
 - Vista responsive para móvil y tablet.
@@ -48,6 +54,7 @@
 - SEO básico y favicon personalizado.
 
 ## 🛠️ Últimas mejoras destacadas
+
 - Overlay de título/calificación en tarjetas del index (inicio).
 - Filtrado de películas sin imagen en todas las vistas.
 - Favoritos mejorados: persistencia, botón compacto y experiencia aislada.
@@ -55,8 +62,10 @@
 - Refactor y organización del CSS para fácil mantenimiento.
 
 ## 📦 Créditos
+
 - [TMDB API](https://www.themoviedb.org/documentation/api)
 - Iconos y recursos: [Heroicons](https://heroicons.com/), [Google Fonts](https://fonts.google.com/)
 
 ---
+
 ¡Disfruta explorando el mundo del cine con CineRadar!
